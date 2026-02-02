@@ -1,7 +1,7 @@
 # Overview
-As a penetration tester, I assessed the application to identify undocumented or hidden API surfaces that could expose sensitive backend functionality. During testing, I discovered a hidden GraphQL endpoint that lacked proper access controls and relied on weak introspection filtering. By probing common endpoint paths and crafting custom GraphQL queries, I was able to enumerate the schema, identify sensitive mutations, and delete a user account without authentication. This project demonstrates how poorly secured GraphQL endpoints can be abused to perform unauthorized administrative actions.
+I assessed the application to identify undocumented or hidden API surfaces that could expose sensitive backend functionality. During testing, I discovered a hidden GraphQL endpoint that lacked proper access controls and relied on weak introspection filtering. By probing common endpoint paths and crafting custom GraphQL queries, I was able to enumerate the schema, identify sensitive mutations, and delete a user account without authentication. This project demonstrates how poorly secured GraphQL endpoints can be abused to perform unauthorized administrative actions.
 
-# Steps Undertaken
+# Methodology
 
 Step 1: Probed common API and GraphQL endpoint paths and identified /api as a potential GraphQL endpoint based on error responses.
 
